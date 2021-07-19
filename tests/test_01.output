@@ -1,0 +1,24 @@
+Listing of Parameters:
+
+set preconditioner  =   Any one of Identity, AMG, Jacobi, BlockJacobi
+
+# Listing of Parameters
+# ---------------------
+set preconditioner = Identity
+
+# Listing of Parameters
+# ---------------------
+set preconditioner = Identity
+
+# Listing of Parameters
+# ---------------------
+set preconditioner = AMG # default: Identity
+
+# Listing of Parameters
+# ---------------------
+set preconditioner = Jacobi # default: Identity
+
+# Listing of Parameters
+# ---------------------
+set preconditioner = BlockJacobi # default: Identity
+
