@@ -16,13 +16,13 @@ PROJECT("exmples")
 
 DEAL_II_INITIALIZE_CACHED_VARIABLES()
 
-file(GLOB files "*.cc")
-foreach(file ${files})
-  get_filename_component(app ${file} NAME_WLE)
-
-  ADD_EXECUTABLE(${app} ${file})
-  DEAL_II_SETUP_TARGET(${app})
-endforeach()
+#file(GLOB files "*.cc")
+#foreach(file ${files})
+#  get_filename_component(app ${file} NAME_WLE)
+#
+#  ADD_EXECUTABLE(${app} ${file})
+#  DEAL_II_SETUP_TARGET(${app})
+#endforeach()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../include)
 

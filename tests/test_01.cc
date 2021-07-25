@@ -13,6 +13,8 @@
 //
 // ---------------------------------------------------------------------
 
+// Test parsing with ParameterHandler.
+
 #include <deal.II/base/parameter_handler.h>
 #include <deal.II/base/patterns_enum.h>
 

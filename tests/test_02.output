@@ -1,0 +1,4 @@
+PreconditionerType::Identity == PreconditionerType::Identity: passed!
+PreconditionerType::Identity == PreconditionerType::Jacobi: passed!
+PreconditionerType::Identity != PreconditionerType::Identity: passed!
+PreconditionerType::Identity != PreconditionerType::Jacobi: passed!
